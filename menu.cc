@@ -13,16 +13,16 @@ using namespace std;
 void menu::displayMenu(){
     int inVal = 0;
     while (true){
-    cout << "-------------- MENU --------------" << endl;
-    cout << "1 : Initialize From File" << endl;
-    cout << "2 : Display All Records" << endl;
-    cout << "3 : Add New Employee" << endl;
-    cout << "4 : Search" << endl;
-    cout << "5 : Quit" << endl;
-    cout << "----------------------------" << endl;
-    cout << "Please select which option ... ";
+    cout << "           |------------- MENU --------------|" << endl;
+    cout << "           |   1 : Initialize From File      |" << endl;
+    cout << "           |   2 : Display All Records       |" << endl;
+    cout << "           |   3 : Add New Employee          |" << endl;
+    cout << "           |   4 : Search                    |" << endl;
+    cout << "           |   5 : Quit                      |" << endl;
+    cout << "           |---------------------------------|" << endl;
+    cout << "            Please select which option ... ";
     cin >> inVal;
-        cout << endl;
+    cout << endl;
     
         if (inVal > 5 || inVal < 1) {
             cerr << "Error, invalid option..." << endl;
